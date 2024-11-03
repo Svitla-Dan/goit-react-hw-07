@@ -5,7 +5,7 @@
   font-size: 16px;
 
   color: #0a0a0a;
-  background-image: url("/night-sky-min.jpg");
+  background-image: url('/night-sky-min.jpg');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;

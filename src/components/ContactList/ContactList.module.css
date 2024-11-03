@@ -1,0 +1,20 @@
+.contactItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s ease;
+}
+
+.contactItem:hover .contactItem:focus {
+  transform: scale(1.02);
+}
+.noContacts {
+  color: red;
+  margin: 0;
+  font-size: 16px;
+}

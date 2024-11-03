@@ -1,0 +1,47 @@
+.form {
+  width: 450px;
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto 32px;
+  border: 1px solid #000;
+  border-radius: 8px;
+  padding: 16px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+
+.form:hover,
+.form:focus {
+  background-color: azure;
+}
+.fieldContainer {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  height: 86px;
+}
+
+.label {
+  text-align: left;
+  font-weight: 500;
+  margin-left: 16px;
+  margin-bottom: 3px;
+}
+.input {
+  width: 100%;
+}
+
+.error {
+  font-size: 14px;
+  font-weight: 600;
+  color: #ff0000;
+  text-align: left;
+  margin-left: 16px;
+}
+
+.button {
+  width: 130px;
+  margin: 0 auto;
+}
+.input:focus {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}

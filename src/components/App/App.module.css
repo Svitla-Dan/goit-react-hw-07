@@ -1,0 +1,13 @@
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.title {
+  color: azure;
+  font-size: 48px;
+}
